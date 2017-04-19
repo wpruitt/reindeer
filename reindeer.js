@@ -7,7 +7,18 @@ var hohohoElement = document.getElementById("reindeer");
 coloredreindeer = []
 for (i = 0; i < reindeer.length; i++) {
 	coloredreindeer.push(colors[i] + " " + reindeer[i]);
+	// var deerPara = document.createElement("P");
+	// var deerText = document.createTextNode(coloredreindeer)
+	// deerPara.appendChild(deerText);
+	// document.getElementById("reindeer").appendChild(deerText);
+	hohohoElement.innerHTML += "<p>" + coloredreindeer[i] + " </p>";
+	// console.log(deerText)
 }
-for (index in coloredreindeer){
-	console.log(coloredreindeer[index])
-}
+
+// for (index in coloredreindeer){
+	
+
+
+// 	coloredDeer = document.getElementById("reindeer");
+// 	document.getElementById("reindeer").appendChild;
+// }
